@@ -15,12 +15,12 @@
 
 Pycharm一直给这一段标黄：
 
-context = await browser.new_context(
+        context = await browser.new_context(
 
-        viewport= {'width':2560, 'height':1440},  # type: ignore <---这里被标黄了
+                viewport= {'width':2560, 'height':1440},  # type: ignore <---这里被标黄了
         
-        user_agent= 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
+                user_agent= 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
         
-    )
+            )
     
 我看文档里也有类似的写法，不知道为什么会被认为有错，不过不影响运行，我把它忽略了
