@@ -1,0 +1,2 @@
+# novels_scraping
+基于playwright，可以通过cloudflare的检测
